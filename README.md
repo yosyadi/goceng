@@ -6,6 +6,7 @@ Nama Kelompok : SANTUY
  - Aji Liwanto | 1800018  (mobile Frontend)
  - Murdifin | 1800018248 (web Frontend)
 
+
 # Perintah-perintah GIT untuk Project
 - git init
 - git add .
