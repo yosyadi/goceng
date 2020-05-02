@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GOCENG</title>
+    <base href="https://aplikasi.finansialku.com/">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css"> -->
+    <link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <!-- <link href="assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="themes/user-v2/css/bootstrap.min.css?v=1588300281" rel="stylesheet" type="text/css">
+    <link href="themes/user-v2/css/fontawesome/all.css?v=1588300281" rel="stylesheet" type="text/css">
+    <link href="assets/css/core.min.css?load=1588300281" rel="stylesheet" type="text/css">
+    <link href="assets/css/core.css?load=1588300281" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css?load=1588300281" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/base.css?load=1588300281" rel="stylesheet" type="text/css">
+    <link href="assets/css/extras/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/js/plugins/iconselect2/css/lib/control/iconselect.css?v=1588300281" rel="stylesheet" type="text/css">
+    <link href="themes/user-v2/css/plyr/plyr.css?v=1588300281" rel="stylesheet" type="text/css">
+    <link href="themes/user-v2/css/bootstrap-datepicker.standalone.min.css?v=1588300281" rel="stylesheet" type="text/css">
+    <link href="themes/user-v2/css/summernote/summernote-bs4.css?v=1588300281" type="text/css">
+    <link href="themes/user-v2/css/intl-tel-input/intlTelInput.css?v=1588300281" rel="stylesheet" type="text/css">
+    <link href="themes/user-v2/css/style.css?v=1588300281" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="themes/user-v2/js/jquery-3.4.1.min.js?v=1588300281"></script>
+    <script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="themes/user-v2/js/popper.min.js?v=1588300281"></script>
+    <script type="text/javascript" src="themes/user-v2/js/bootstrap.min.js?v=1588300281"></script>
+    <script type="text/javascript" src="themes/user-v2/js/theme.js?v=1588300281"></script>
+    <script type="text/javascript" src="themes/user-v2/js/bootstrap-datepicker.min.js?v=1588300281"></script>
+    <script type="text/javascript" src="themes/user-v2/js/plyr/plyr.min.js?v=1588300281"></script>
+    <script type="text/javascript" src="themes/user-v2/js/intl-tel-input/intlTelInput.js?v=1588300281"></script>
+    <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+    <script type="text/javascript" src="themes/user-v2/js/summernote/summernote-bs4.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/uploaders/fileinput.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/notifications/pnotify.min.js"></script>
+    <!--  -->
+
+    <script type="text/javascript" src="assets/js/plugins/forms/wizards/stepy.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/jasny_bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/pages/mail_list_write.js?v=1588300281"></script>
+    <script type="text/javascript" src="assets/js/pages/mail_list_read.js"></script>
+    <script type="text/javascript" src="assets/js/pages/mail_list.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/jquery_ui/datepicker.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/jquery_ui/effects.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/notifications/jgrowl.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js?v=1588300281"></script>
+    <script type="text/javascript" src="assets/js/plugins/pickers/anytime.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pagination/bootpag.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pagination/bs_pagination.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pagination/datepaginator.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script type="text/javascript" src="assets/js/pages/picker_date.js?load=1588300281"></script>
+    <script type="text/javascript" src="assets/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/tables/datatables/extensions/tools.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/notifications/bootbox.min.js"></script>
+    <script type="text/javascript" src="assets/js/pages/datatables_basic.js?load=1588300281"></script>
+    <script type="text/javascript" src="assets/js/pages/datatables_extension_tools.js?load=1588300281"></script>
+    <script type="text/javascript" src="assets/js/plugins/tables/datatables/extensions/date-uk.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js?v=1588300281"></script>
+    <!-- <script type='text/javascript' src="assets/js/plugins/visualization/d3.v4.min.js?v=1588300281"></script> -->
+    <script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/visualization/c3/c3.min.js?v=1588300281"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/wizards/steps.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/app.js?v=1"></script>
+    <script type="text/javascript" src="assets/js/pages/components_notifications_pnotify.js?v=1588300281"></script>
+    <script type="text/javascript" src="assets/js/pages/login.js"></script>
+    <script type="text/javascript" src="assets/js/pages/uploader_bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/pages/form_select2.js"></script>
+    <!--<script type="text/javascript" src="assets/js/pages/dashboard.js?v=1588300281"></script>-->
+    <!--<script type="text/javascript" src="assets/js/pages/wizard_steps.js?v=1588300281"></script>-->
+    <script type="text/javascript" src="assets/js/pages/wizard_stepy.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.ajaxfileupload.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.autosize.input.js?v=0.1"></script>
+    <script type="text/javascript" src="assets/js/plugins/notifications/sweet_alert.min.js"></script>
+    <script type="text/javascript" src="assets/js/pages/components_modals.js"></script>
+    <script type="text/javascript" src="assets/js/pages/form_layouts.js"></script>
+    <script type="text/javascript" src="assets/js/pages/components_pagination.js"></script>
+
+    <script type="text/javascript" src="assets/js/plugins/iconselect2/lib/control/iconselect.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/iconselect2/lib/iscroll.js"></script>
+
+            <!-- <script type="text/javascript" src="assets/js/plugins/visualization/echarts/echarts.js?v=1588300281"></script> -->
+    
+   
+    <!-- end Mixpanel -->
+</head>
+    <body class="bg-grey"><strong>
+            <!-- Header Section -->
+        <header class="header-section fixed-top active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-3 ">
+                        <div class="responsive-nav">
+                            <a href="https://aplikasi.finansialku.com/" class="align-middle logo">
+                                <div class="logo-image">
+                                    <img src="konsultasi.jpg" alt="">
+                                </div>
+                            </a>
+                            <div class="responsive-nav__item burger-menu nav-mobile">
+                                <img src="themes/user-v2/img/icon/ic_burger_menu.svg" alt="">
+                            </div>
+                            <div class="responsive-nav__item nav-inbox">
+                                <img src="themes/user-v2/img/icon/ic_email.svg" alt="">
+                                <!-- <span class="has-notification">9+</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-9">
+                        <div class="main-nav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://aplikasi.finansialku.com/upgrade/pricing">
+                                        <span class="has-btn">Upgrade</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="https://aplikasi.finansialku.com/">
+                                        <img class="menu-icon" src="themes/user-v2/img/icon/ic_home.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown dropdown-inbox align-self-center notification-website">
+                                    <a class="nav-link dropdown-toggle dropdown-nav-header align-middle link-notification" aria-expanded="false" href="#" data-toggle="dropdown" id="dropdownInbox">
+                                        <img class="menu-icon" src="themes/user-v2/img/icon/ic_email.svg" alt="">
+                                        <!-- <span class="has-notification">9+</span> -->
+                                    </a>
+                                    <div class="dropdown-menu dropdown-inbox__wrapper" aria-labelledby="dropdownInbox">
+                                        <div class="dropdown-inbox__header">
+                                            <p class="mb-0 text-bold">Inbox</p>
+                                        </div>
+                                        <div class="dropdown-inbox__content">
+                                            <div class="dropdown-inbox__nav">
+                                                <ul class="nav nav-pills nav-notification mb-0">
+                                                    <li class="nav-item">
+                                                        <a data-tab="update" class="nav-link inbox-website active tablinks" ><span>Info</span><!--<span class="pills-notification"></span>--></a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a data-tab="promo" class="nav-link update-website tablinks"><span>Update</span><!--<span class="pills-notification"></span>--></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-content">
+                                                <div class="tab-pane tab-notif active" id="update">
+                                                    <div class="dropdown-inbox__content-item">
+                                                        <div class="dropdown-inbox__empty text-center">
+                                                                <img class="folder-empty" src="themes/user-v2/img/icon/ic_empty_folder.svg" alt="">
+                                                                <h6>Data Kosong</h6>
+                                                                <p>Belum ada data yang ditemukan</p>
+                                                            </div>
+                                                                                                            </div>
+                                                </div>
+                                                <div class="tab-pane tab-notif" id="promo">
+                                                    <div class="dropdown-inbox__content-item">
+                                                        <div class="dropdown-inbox__empty text-center">
+                                                                <img class="folder-empty" src="themes/user-v2/img/icon/ic_empty_folder.svg" alt="">
+                                                                <h6>Data Kosong</h6>
+                                                                <p>Belum ada data yang ditemukan</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown dropdown-profile align-self-center">
+                                    <a class="nav-link dropdown-toggle dropdown-nav-header align-middle" aria-expanded="false" href="#" data-toggle="dropdown" id="dropdownProfile">
+                                        <div class="photo">
+                                            <img src="assets/images/placeholder.jpg?v=1588300281" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownProfile">
+                                        <div class="dropdown-profile__mega-header">
+                                            <div class="row">
+                                                <div class="col-12 align-self-center text-center">
+                                                    <div class="mega-photo">
+                                                        <a href="https://aplikasi.finansialku.com/profile">
+                                                            <img src="assets/images/placeholder.jpg?v=1588300281" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-profile__mega-menu">
+                        <ul>
+                        <li><a href="https://aplikasi.finansialku.com/profile"><img src="themes/user-v2/img/icon/navigation/ic_user.svg" alt="">Profil</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/pengaturan"><img src="themes/user-v2/img/icon/navigation/ic_settings.svg" alt="">Pengaturan</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/promo"><img src="themes/user-v2/img/icon/navigation/ic_promo_code.svg" alt="">Kode Promo</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/referral"><img src="themes/user-v2/img/icon/navigation/ic_referral_code.svg" alt="">Kode Referal</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/account_payment"><img src="themes/user-v2/img/icon/navigation/ic_invoice.svg" alt="">Invoice</a></li>
+                        <li><a href="https://www.finansialku.com/panduan-penggunaan-aplikasi-finansialku/"><img src="themes/user-v2/img/icon/navigation/ic_help.svg" alt="">Bantuan</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/feedback"><img src="themes/user-v2/img/icon/navigation/ic_contact_us.svg" alt="">Kontak Kami</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/document/term_and_condition"><img src="themes/user-v2/img/icon/navigation/ic_tnc.svg" alt="">Syarat & Ketentuan</a></li>
+                        <li><a href="https://aplikasi.finansialku.com/document/privacy_policy"><img src="themes/user-v2/img/icon/navigation/ic_privacy_police.svg" alt="">Kebijakan Privasi</a></li>
+                        </ul>
+                                        </div>
+                                        <div class="nav-dropdown-separator"></div>
+                                        <div class="dropdown-profile__mega-footer">
+                                            <ul>
+                                                <li><a href="https://aplikasi.finansialku.com/user/logout"><img src="themes/user-v2/img/icon/navigation/ic_logout.svg" alt=""> Keluar</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <span class="has-btn-outline status-label-outline">
+                                        <a class="nav-link" href="https://aplikasi.finansialku.com/upgrade/pricing">
+                                            Trial Member                                        </a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="page-container">
+        <!-- Page content -->
+        <div class="page-content">
+            <div class="content-wrapper">
+                        <div class="page-header page-header-dashboard after-fix-header">
+                            <div class="page-header-dashboard">
+                                <div class="">
+                                                                        
+                                    <img src="konsultasi.jpg">
+                                    
+                                </div>
+                                <!-- heading-elements -->
+                                <!-- <div class="" style="position: absolute; float:right; top:10%; right:20px;">
+                                    <div class="heading-btn-group">
+                                                                            </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    <div class="content">
+
+                    <!-- Nav Site -->
+<section class="nav-site-section  ml-auto">
+  <div class="container">
+    <div class="nav-site">
+      <div class="row ">
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/financial_check_up" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_account_balance_wallet.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Financial Check Up</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/anggaran" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_pie_chart.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Anggaran</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/transaksi/dashboard" class="nav-site__link active">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_transaksi_berulang.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Transaksi</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/rekeningku/dashboard" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_account_balance_wallet.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Rekeningku</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/rencana-keuangan/dashboard" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_assignment.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Rencana Keuangan</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/ticket/planner" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_konsultasi_keuangan_nav.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Konsultasi Keuangan</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/laporan" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_laporan_keuangan.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Laporan Keuangan</p>
+            </div>
+          </a>
+        </div>
+         <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/investasi/dashboard" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_investment.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Investasi</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-nav-site">
+          <a href="https://aplikasi.finansialku.com/aset" class="nav-site__link ">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_directions_car.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Aset</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-nav-site">
+          <a href="https://course.finansialku.com/" class="nav-site__link">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_laptop_mac.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Online Course</p>
+            </div>
+          </a>
+        </div>
+       
+        <!-- <div class="col-nav-site">
+          <a href="#" class="nav-site__link">
+            <div class="nav-site__image text-center">
+              <img src="themes/user-v2/img/icon/ic_others.svg" alt="">
+            </div>
+            <div class="nav-site__text text-center">
+              <p>Lainnya</p>
+            </div>
+          </a>
+        </div> -->
+      
+   </div></div></div>
+  </div>
+</section>                    
+<section class="transaction-section page-card-tabs-wrapper">
+	<div class="container">
+		        <div id="transaction-page-notification"></div>
+        <div class="make-me-sticky">
+            <div class="page-card page-card-nav-tab mb-0">
+                <div class="page-card__header bg-grey">
+                    <ul class="nav nav-pills mb-0 transaction-nav" id="pills-tab" role="tablist">
+                                                    <li class="nav-item">
+                                <a class="nav-link transaction-tab active" data-table="list" href="#transaki-pemasukan" data-toggle="tab"><span>Pemasukan</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link transaction-tab " data-table="list" href="#transaki-pengeluaran" data-toggle="tab"><span>Pengeluaran</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link transaction-tab " data-table="list" href="#transaki-transfer" data-toggle="tab"><span>Transfer</span></a>
+                            </li>
+                                
+                                                                                    <li class="nav-item">
+                                    <a class="nav-link transaction-tab " data-table="repeat" href="#transaki-berulang" data-toggle="tab"><span>Transaksi Berulang</span></a>
+                                </li>
+                                                                        </ul>
+                </div>
+            </div>
+        </div>
+		<div class="tab-content">
+							<div class="tab-pane active" id="transaki-pemasukan">
+					                    <div class="page-card page-card-content-tab panel-loading">
+                        <div class="page-card__content">
+                            <form action="" class="form-horizontal page-card__form" method="post" id="formPemasukan">
+                                <input type="hidden" name="tipe_transaksi" value="deposit">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <input type="hidden" name="ci_csrf_token" value="">
+                                        <div class="form-group row">
+                                            <label for="tanggal_pemasukan" class="col-sm-4 col-form-label">Tanggal</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" name="tanggal_pemasukan" value="01/05/2020 09:31:19" id="tanggal_pemasukan" class="input-sm input-s daterange-single-with-time tanggal_pemasukan form-control " data-required="true" size="16" data-date-format="dd-mm-yyyy" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="jumlah_pemasukan" class="col-sm-4 col-form-label">Jumlah</label>
+                                            <div class="col-sm-8">
+                                                <input required id="jumlah_pemasukan" name="jumlah_pemasukan" class="form-control jumlah_pemasukan priceFormatPerfix" type="text" value="Rp. " data-autosize-input='{ "space": 10 }' />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="income_select" class="col-sm-4 col-form-label">Kategori</label>
+                                            <div class="col-sm-8">
+                                                <select name="kategori_pemasukan" class="form-control kategori_pemasukan source_select" data-required="true" id="income_select">
+                                                    <optgroup label=Pemasukan><option  value=103 data-child="0" data-image="assets/article_categories/gaji_v2.png?v=1588300279">Gaji</option><option  value=104 data-child="0" data-image="assets/article_categories/bonus_v2.png?v=1588300279">Bonus Dan Tunjangan</option><option  value=106 data-child="0" data-image="assets/article_categories/pendapatan_pasif_v2.png?v=1588300279">Pendapatan Pasif Atau Bisnis</option><option  value=107 data-child="0" data-image="assets/article_categories/pendapatan_lainnya_v2.png?v=1588300279">Pendapatan Lainnya</option><option  value=187 data-child="0" data-image="assets/article_categories/bunga_v2.png?v=1588300279">Bunga Atau Investasi</option></optgroup></optgroup>                                                </select>
+                                                <a data-toggle="modal" class="btn-link-modal" data-target="#add_new_income_category"><i class="fas fa-plus"></i> Tambah Kategori Baru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group row">
+                                            <label for="tujuan_pemasukan" class="col-sm-4 col-form-label">Ke</label>
+                                            <div class="col-sm-8">
+                                                                                            <div class="warning-need-content">
+                                                    Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                </div>
+                                                                                        </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="keterangan_pemasukan" class="col-sm-4 col-form-label">Keterangan</label>
+                                            <div class="col-sm-8">
+                                                <input id="keterangan_pemasukan" value="" name="keterangan_pemasukan" class="form-control keterangan_pemasukan" type="text" placeholder="Keterangan" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group text-right">
+                                                                                        
+                                         <a href="https://aplikasi.finansialku.com/rekeningku/dashboard"><button type="button" class="btn btn-primary">Buat Rekeningku <i class="icon-arrow-right14 position-right"></i></button></a>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+						
+					<div id="add_new_income_category" class="modal fade page-card__modal" tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header modal-header__blue">
+                                    <h6 class="modal-title">Tambah Kategori Baru</h6>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+								</div>
+								<div class="modal-header" id="div_alert_income_modal" style="display:none;">
+									<div class="alert alert-info" id="alert_income_modal">
+									</div>
+								</div>
+									<form id="income_category_form" action="transaksi/dashboard/add_new_category" method="post">
+										<div class="modal-body page-card__form">
+											<div class="form-group row">
+												<label class="col-12">Pilih Kategori</label>
+												<div class="col-sm-2 pr-0">
+													<div id="add-new-income-category" class="form-control"></div>
+                                                </div>
+                                                <div class="col-sm-10 pl-0">
+													<input type="hidden" name="category_type" value=2>
+													<input type="hidden" name="icon" id="icon_id_income">
+													<input type="text" class="form-control" value="" style="display:inline-block;" name="name" placeholder="Nama Kategori" required>
+												</div>
+											</div>
+											<div class="form-group">
+												<label>Kategori Induk</label>
+												<select name="kategori_induk" class="form-group kategori_pemasukan source_select" data-required="true">
+													<optgroup label=Pemasukan><option  value=103 data-child="0" data-image="assets/article_categories/gaji_v2.png?v=1588300279">Gaji</option><option  value=104 data-child="0" data-image="assets/article_categories/bonus_v2.png?v=1588300279">Bonus Dan Tunjangan</option><option  value=106 data-child="0" data-image="assets/article_categories/pendapatan_pasif_v2.png?v=1588300279">Pendapatan Pasif Atau Bisnis</option><option  value=107 data-child="0" data-image="assets/article_categories/pendapatan_lainnya_v2.png?v=1588300279">Pendapatan Lainnya</option><option  value=187 data-child="0" data-image="assets/article_categories/bunga_v2.png?v=1588300279">Bunga Atau Investasi</option></optgroup></optgroup>												</select>
+											</div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kembali</button>
+                                            <button type="submit" class="btn btn-primary">Simpan</button>
+                                        </div>
+									</form>
+								</div>
+						</div>
+					</div>
+	
+					<!-- Basic TableTools Pemasukan -->
+					<div class="page-card mb-0 border-bottom-0 top-page-card">
+						<div class="page-card__content pb-0">
+                            <form action="https://aplikasi.finansialku.com/transaksi/dashboard?active=pemasukan" class="form-horizontal page-card__form form-filter-income" method="post" id="formFilter">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6 col-lg-7">
+                                        <div class="form-group input-calendar">
+                                            <input type="hidden" name="ci_csrf_token" value="">
+                                            <span><img src="themes/user-v2/img/icon/ic_date.svg" alt=""></span>
+                                            <input name="formFilter" type="text" class="form-control daterange-basic input-filter-income" value="01-05-2020 - 31-05-2020">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-5 text-right">
+                                        <div class="row">
+                                                                                            <div class="col-6">
+                                                    <span onClick="printTrx('pdf', 'formFilter')" class="btn btn-success btn-download w-100">Export PDF</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span onClick="printTrx('xls', 'formFilter')" class="btn btn-success btn-download w-100">Export Excel</span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+						</div>
+                    </div>
+                    <!-- End TableTools Pemasukan -->
+				</div>
+				<div class="tab-pane " id="transaki-pengeluaran">
+					                    <div class="page-card page-card-content-tab panel-loading">
+                        <div class="page-card__content">
+                            <form action="" class="form-horizontal page-card__form" method="post" id="formPengeluaran">
+                                <input type="hidden" name="ci_csrf_token" value="">
+                                <input type="hidden" name="tipe_transaksi" value="pembayaran">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group row">
+                                            <label for="tanggal_pemasukan" class="col-sm-4 col-form-label">Tanggal</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" name="tanggal_pemasukan" value="01/05/2020 09:31:19" id="tanggal_pemasukan" class="input-sm input-s daterange-single-with-time tanggal_pemasukan form-control " data-required="true" size="16" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="jumlah_pemasukan" class="col-sm-4 col-form-label">Jumlah</label>
+                                            <div class="col-sm-8">
+                                                <input required id="jumlah_pemasukan" name="jumlah_pemasukan" class="form-control jumlah_pemasukan priceFormatPerfix" type="text" value="Rp. " data-autosize-input='{ "space": 10 }' />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="kategori_pemasukan" class="col-sm-4 col-form-label">Kategori</label>
+                                            <div class="col-sm-8">
+                                                <select name="kategori_pemasukan" class="form-control kategori_pemasukan source_select" data-required="true" id="outlay_select">
+                                                    <optgroup label=Pengeluaran><option  value=172 data-child="0" data-image="assets/article_categories/pajak_v2.png?v=1588300279">Pajak</option><option  value=173 data-child="0" data-image="assets/article_categories/sumbangan_v2.png?v=1588300279">Sedekah Atau Donasi</option><option  value=174 data-child="0" data-image="assets/article_categories/asuransi_jiwa_v2.png?v=1588300279">Asuransi</option><option  value=175 data-child="0" data-image="assets/article_categories/cicilan_v2.png?v=1588300279">Cicilan Atau Hutang</option><option  value=176 data-child="0" data-image="assets/article_categories/anak_v2.png?v=1588300279">Anak</option><option  value=177 data-child="0" data-image="assets/article_categories/pendidikan_v2.png?v=1588300279">Pendidikan</option><option  value=178 data-child="0" data-image="assets/article_categories/tagihan_v2.png?v=1588300279">Tagihan Bulanan</option><option  value=179 data-child="0" data-image="assets/article_categories/belanja_v2.png?v=1588300279">Belanja Bulanan Rumah Tangga</option><option  value=180 data-child="0" data-image="assets/article_categories/makanan_v2.png?v=1588300279">Makanan</option><option  value=181 data-child="0" data-image="assets/article_categories/pengeluaran_pribadi_v2.png?v=1588300279">Pengeluaran Pribadi</option><option  value=182 data-child="0" data-image="assets/article_categories/Kendaraan_v2.png?v=1588300279">Kendaraan</option><option  value=183 data-child="0" data-image="assets/article_categories/kesehatan_v2.png?v=1588300279">Kesehatan</option><option  value=184 data-child="0" data-image="assets/article_categories/liburan_v2.png?v=1588300279">Liburan</option><option  value=185 data-child="0" data-image="assets/article_categories/hobby_v2.png?v=1588300279">Hobi</option><option  value=186 data-child="0" data-image="assets/article_categories/biaya_lainnya_v2.png?v=1588300279">Biaya Lainnya</option></optgroup></optgroup> </select>
+                                                <a data-toggle="modal" class="btn-link-modal" data-target="#add_new_outlay_category"><i class="fas fa-plus"></i> Tambah Kategori Baru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group row">
+                                            <label for="tujuan_pemasukan" class="col-sm-4 col-form-label">Dari</label>
+                                            <div class="col-sm-8">
+                                    <div class="alert alert-sm alert-warning">
+                                                        Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="keterangan_pemasukan" class="col-sm-4 col-form-label">Keterangan</label>
+                                            <div class="col-sm-8">
+                                                <input id="keterangan_pemasukan" name="keterangan_pemasukan" class="form-control keterangan_pemasukan" type="text" value="" placeholder="Keterangan" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group text-right">
+                                            
+                                        <a href="https://aplikasi.finansialku.com/rekeningku/dashboard"><button type="button" class="btn btn-primary">Buat Rekeningku <i class="icon-arrow-right14 position-right"></i></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+							</form>
+                        </div>
+                    </div>
+						
+					<div id="add_new_outlay_category" class="modal fade page-card__modal"  tabindex="-1" role="dialog" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header modal-header__blue">
+									<h6 class="modal-title">Tambah Kategori Baru</h6>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+								</div>
+								<div class="modal-header" id="div_alert_outlay_modal" style="display:none;">
+									<div class="alert alert-info" id="alert_outlay_modal">
+									</div>
+								</div>
+									<form id="outlay_category_form" action="transaksi/dashboard/add_new_category" method="post">
+										<div class="modal-body page-card__form">
+											<div class="form-group row">
+                                                <label class="col-12">Pilih Kategori</label>
+                                                <div class="col-sm-2 pr-0">
+                                                    <div id="add-new-outlay-category" class="form-control"></div>
+                                                </div>
+												<div class="col-sm-10 pl-0">
+													<input type="hidden" name="category_type" value=1>
+													<input type="hidden" name="icon" id="icon_id_outlay">
+													<input type="text" class="form-control" value="" style="display:inline-block;" name="name" placeholder="Nama Kategori" required>
+												</div>
+											</div>
+											<div class="form-group">
+												<label>Kategori Induk</label>
+												<select name="kategori_induk" class="form-group kategori_pemasukan source_select" data-required="true">
+													<optgroup label=Pengeluaran><option  value=172 data-child="0" data-image="assets/article_categories/pajak_v2.png?v=1588300279">Pajak</option><option  value=173 data-child="0" data-image="assets/article_categories/sumbangan_v2.png?v=1588300279">Sedekah Atau Donasi</option><option  value=174 data-child="0" data-image="assets/article_categories/asuransi_jiwa_v2.png?v=1588300279">Asuransi</option><option  value=175 data-child="0" data-image="assets/article_categories/cicilan_v2.png?v=1588300279">Cicilan Atau Hutang</option><option  value=176 data-child="0" data-image="assets/article_categories/anak_v2.png?v=1588300279">Anak</option><option  value=177 data-child="0" data-image="assets/article_categories/pendidikan_v2.png?v=1588300279">Pendidikan</option><option  value=178 data-child="0" data-image="assets/article_categories/tagihan_v2.png?v=1588300279">Tagihan Bulanan</option><option  value=179 data-child="0" data-image="assets/article_categories/belanja_v2.png?v=1588300279">Belanja Bulanan Rumah Tangga</option><option  value=180 data-child="0" data-image="assets/article_categories/makanan_v2.png?v=1588300279">Makanan</option><option  value=181 data-child="0" data-image="assets/article_categories/pengeluaran_pribadi_v2.png?v=1588300279">Pengeluaran Pribadi</option><option  value=182 data-child="0" data-image="assets/article_categories/Kendaraan_v2.png?v=1588300279">Kendaraan</option><option  value=183 data-child="0" data-image="assets/article_categories/kesehatan_v2.png?v=1588300279">Kesehatan</option><option  value=184 data-child="0" data-image="assets/article_categories/liburan_v2.png?v=1588300279">Liburan</option><option  value=185 data-child="0" data-image="assets/article_categories/hobby_v2.png?v=1588300279">Hobi</option><option  value=186 data-child="0" data-image="assets/article_categories/biaya_lainnya_v2.png?v=1588300279">Biaya Lainnya</option></optgroup></optgroup>												</select>
+											</div>
+										</div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kembali</button>
+                                            <button type="submit" class="btn btn-primary">Simpan</button>
+                                        </div>
+									</form>
+								</div>
+						</div>
+					</div>
+					<!-- Basic TableTools Pengeluaran -->
+					<div class="page-card mb-0 border-bottom-0 top-page-card">
+						<div class="page-card__content pb-0">
+							<form action="https://aplikasi.finansialku.com/transaksi/dashboard?active=pengeluaran" class="form-horizontal page-card__form form-filter-outlay" method="post" id="formFilter">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6 col-lg-7">
+                                        <div class="form-group input-calendar">
+                                            <input type="hidden" name="ci_csrf_token" value="">
+                                            <span><img src="themes/user-v2/img/icon/ic_date.svg" alt=""></span>
+                                            <input name="formFilter" type="text" class="form-control daterange-basic input-filter-outlay" value="01-05-2020 - 31-05-2020">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-5 text-right">
+                                        <div class="row">
+                                                                                            <div class="col-6">
+                                                    <span onClick="printTrx('pdf', 'formFilter')" class="btn btn-success btn-download w-100">Export PDF</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span onClick="printTrx('xls', 'formFilter')" class="btn btn-success btn-download w-100">Export Excel</span>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </form>
+						</div>
+					</div>
+					<!-- Basic TableTools Pengeluaran -->
+				</div>
+				<div class="tab-pane " id="transaki-transfer">
+					                    <div class="page-card page-card-content-tab panel-loading">
+                        <div class="page-card__content">
+                            <form action="" class="form-horizontal page-card__form" method="post" id="formTransfer">
+                                <input type="hidden" name="ci_csrf_token" value="">
+                                <input type="hidden" name="tipe_transaksi" value="transfer">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group row">
+                                            <label for="tanggal_pemasukan" class="col-sm-4 col-form-label">Tanggal</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" name="tanggal_pemasukan" value="01/05/2020 09:31:19" id="tanggal_pemasukan" class="input-sm input-s daterange-single-with-time tanggal_pemasukan form-control " data-required="true" size="16" data-date-format="dd-mm-yyyy" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="jumlah_pemasukan" class="col-sm-4 col-form-label">Jumlah</label>
+                                            <div class="col-sm-8">
+                                                <input required id="jumlah_pemasukan" name="jumlah_pemasukan" class="form-control jumlah_pemasukan priceFormatPerfix" type="text" value="Rp. " data-autosize-input='{ "space": 10 }' />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="dari_transfer" class="col-sm-4 col-form-label">Dari</label>
+                                            <div class="col-sm-8">
+                                                    <div class="alert alert-sm alert-warning">
+                                                    Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="form-group row">
+                                            <label for="tujuan_pemasukan" class="col-sm-4 col-form-label">Ke</label>
+                                            <div class="col-sm-8">
+                                                    <div class="alert alert-sm alert-warning">
+                                                        Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="keterangan_pemasukan" class="col-sm-4 col-form-label">Keterangan</label>
+                                            <div class="col-sm-8">
+                                                <input id="keterangan_pemasukan" name="keterangan_pemasukan" class="form-control keterangan_pemasukan" value="" type="text" placeholder="Keterangan" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group text-right">
+                                            
+                    <a href="https://aplikasi.finansialku.com/rekeningku/dashboard"><button type="button" class="btn btn-primary">Buat Rekeningku <i class="icon-arrow-right14 position-right"></i></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+										<!-- Basic TableTools Transfer -->
+					<div class="page-card mb-0 border-bottom-0 top-page-card">
+						<div class="page-card__content pb-0">
+                            <form action="https://aplikasi.finansialku.com/transaksi/dashboard?active=transfer" class="form-horizontal page-card__form form-filter-transfer" method="post" id="formFilter">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6 col-lg-7">
+                                        <div class="form-group input-calendar">
+                                            <input type="hidden" name="ci_csrf_token" value="">
+                                            <span><img src="themes/user-v2/img/icon/ic_date.svg" alt=""></span>
+                                            <input name="formFilter" type="text" class="form-control daterange-basic input-filter-transfer" value="01-05-2020 - 31-05-2020">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-5 text-right">
+                                        <div class="row">
+                                                                                            <div class="col-6">
+                                                    <span onClick="printTrx('pdf', 'formFilter')" class="btn btn-success btn-download w-100">Export PDF</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span onClick="printTrx('xls', 'formFilter')" class="btn btn-success btn-download w-100">Export Excel</span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+						</div>
+                    </div>
+					<!-- Basic TableTools Transfer -->                    
+				</div>
+										<div class="tab-pane 
+				" id="transaki-berulang">
+											<div class="page-card page-card-content-tab panel-loading">
+							<div class="page-card__content pb-0">
+								<form action="" class="form-horizontal page-card__form" method="post" id="formBerulang">
+									<input type="hidden" name="ci_csrf_token" value="">
+                                    <input type="hidden" name="tipe_transaksi" value="berulang">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label for="nama_transaksi_berulang" class="col-sm-4 col-form-label">Nama Transaksi Berulangangan</label>
+                                                <div class="col-sm-8">
+                                                    <input required id="nama_transaksi_berulang" name="nama_transaksi_berulang" class="form-control nama_transaksi_berulang" value="" type="text" placeholder="Input nama transaksi berulang" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="jenis_transaksi_berulang" class="col-sm-4 col-form-label">Jenis Perulangan Transaksi</label>
+                                                <div class="col-sm-8">
+                                                    <select id="jenis_transaksi_berulang" name="jenis_transaksi_berulang" class="form-control jenis_perulangan" required>
+                                                        <option value="" hidden>Pilih Jenis Transaksi</option>
+                                                        <option value="pemasukan">Pemasukan</option>
+                                                        <option value="pengeluaran">Pengeluaran</option>
+                                                        <option value="transfer">Transfer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="periode_transaksi_berulang" class="col-sm-4 col-form-label">Periode Perulangan Transaksi</label>
+                                                <div class="col-sm-8">
+                                                    <select name="periode_transaksi_berulang" class="form-control" id="periode" required>
+                                                        <option value="" hidden>Pilih Periode</option>
+                                                        <option value="tahunan">Tahunan</option>
+                                                        <option value="bulanan">Bulanan</option>
+                                                        <option value="harian">Harian</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="periode_tahun">
+                                                <label for="periode_tahunan_transaksi" class="col-sm-4 col-form-label">Pilih Bulan Transaksi</label>
+                                                <div class="col-sm-8">
+                                                    <select id="periode_tahunan_transaksi" name="periode_tahunan_transaksi" class="form-control periode_bulan" required>
+                                                    <option value="" hidden>Pilih Bulan Transaksi</option>
+                                                        <option selected value="1">Januari</options>
+                                                        <option value="2">Februari</option>
+                                                        <option value="3">Maret</option>
+                                                        <option value="4">April</option>
+                                                        <option value="5">Mei</option>
+                                                        <option value="6">Juni</option>
+                                                        <option value="7">Juli</option>
+                                                        <option value="8">Agustus</option>
+                                                        <option value="9">September</option>
+                                                        <option value="10">Oktober</option>
+                                                        <option value="11">November</option>
+                                                        <option value="12">Desember</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="periode_bulan">
+                                                <label for="tanggal_transaksi_bulanan" class="col-sm-4 col-form-label">Pilih Tanggal Transaksi</label>
+                                                <div class="col-sm-8">
+                                                    <select id='tanggal_transaksi_bulanan' name="tanggal_transaksi_bulanan" class="form-control periode_bulan">
+                                                    <option selected disabled hidden>Pilih Tanggal Transaksi</option>
+            <option selected value="1">1</option>
+            <option  value="2">2</option>
+            <option  value="3">3</option>
+            <option  value="4">4</option>
+             <option  value="5">5</option>
+             <option  value="6">6</option>
+            <option  value="7">7</option>
+            <option  value="8">8</option>
+            <option  value="9">9</option>
+            <option  value="10">10</option>
+            <option  value="11">11</option>
+            <option  value="12">12</option>
+            <option  value="13">13</option>
+            <option  value="14">14</option>
+            <option  value="15">15</option>
+            <option  value="16">16</option>
+            <option  value="17">17</option>
+            <option  value="18">18</option>
+            <option  value="19">19</option>
+            <option  value="20">20</option>
+            <option  value="21">21</option>
+            <option  value="22">22</option>
+            <option  value="23">23</option>
+            <option  value="24">24</option>
+            <option  value="25">25</option>
+            <option  value="26">26</option>
+            <option  value="27">27</option>
+            <option  value="28">28</option>
+            <option  value="29">29</option>
+            <option  value="30">30</option>
+            <option  value="31">31</option>
+                                                </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="periode_hari">
+                                                <label for="nama_transaksi_berulang" class="col-sm-4 col-form-label">Hari</label>
+                                                <div class="col-sm-8">
+                                                    <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="1" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Senin
+                                                        </label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="2" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Selasa
+                                                        </label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="3" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Rabu
+                                                        </label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="4" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Kamis
+                                                        </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="5" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Jumat
+                                                        </label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="6" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Sabtu
+                                                        </label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                        <label>
+                                                            <input value="7" name='periode_harian_transaksi[]' type="checkbox" class="styled">
+                                                            Minggu
+                                                        </label>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="maks_transaksi">
+                                                <label for="maks_transaksi_berulang" class="col-sm-4 col-form-label">Berulang Sebanyak</label>
+                                                <div class="col-sm-8">
+                                                    <input type="hidden" name="current_transaksi_berulang" value="0">
+                                                    <input required id="maks_transaksi_berulang" name="maks_transaksi_berulang" class="form-control codegeass_transaksi_berulang" type="number" min="0" value="0" data-autosize-input='{ "space": 10 }' />
+                                                    <small id="passwordHelpBlock" class="form-text text-muted">Jika berisi 0, maka jumlah transaksi berulang tidak akan dibatasi</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group row">
+                                                <label for="nominal_transaksi_berulang" class="col-sm-4 col-form-label">Jumlah Nominal</label>
+                                                <div class="col-sm-8">
+                                                    <input required id="nominal_transaksi_berulang" name="nominal_transaksi_berulang" class="form-control nominal_transaksi_berulang priceFormatPerfix" type="text" value="Rp. " data-autosize-input='{ "space": 10 }' required/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="dari_transfer">
+                                                <label for="sumber_transfer" class="col-sm-4 col-form-label">Dari</label>
+                                                <div class="col-sm-8">
+                                                <div class="alert alert-sm alert-warning">
+                                                        Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="ke_transfer">
+                                                <label for="tujuan_transfer" class="col-sm-4 col-form-label">Ke</label>
+                                                <div class="col-sm-8">
+                                                    <div class="alert alert-sm alert-warning">
+                                                        Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="kategori_pengeluaran">
+                                                <label for="kategori_pengeluaran" class="col-sm-4 col-form-label">Kategori</label>
+                                                <div class="col-sm-8">
+                                                    <select name="kategori_pengeluaran" class="form-control kategori_pemasukan source_select" data-required="true">
+                                                        <optgroup label=Pengeluaran><option  value=172 data-child="0" data-image="assets/article_categories/pajak_v2.png?v=1588300279">Pajak</option><option  value=173 data-child="0" data-image="assets/article_categories/sumbangan_v2.png?v=1588300279">Sedekah Atau Donasi</option><option  value=174 data-child="0" data-image="assets/article_categories/asuransi_jiwa_v2.png?v=1588300279">Asuransi</option><option  value=175 data-child="0" data-image="assets/article_categories/cicilan_v2.png?v=1588300279">Cicilan Atau Hutang</option><option  value=176 data-child="0" data-image="assets/article_categories/anak_v2.png?v=1588300279">Anak</option><option  value=177 data-child="0" data-image="assets/article_categories/pendidikan_v2.png?v=1588300279">Pendidikan</option><option  value=178 data-child="0" data-image="assets/article_categories/tagihan_v2.png?v=1588300279">Tagihan Bulanan</option><option  value=179 data-child="0" data-image="assets/article_categories/belanja_v2.png?v=1588300279">Belanja Bulanan Rumah Tangga</option><option  value=180 data-child="0" data-image="assets/article_categories/makanan_v2.png?v=1588300279">Makanan</option><option  value=181 data-child="0" data-image="assets/article_categories/pengeluaran_pribadi_v2.png?v=1588300279">Pengeluaran Pribadi</option><option  value=182 data-child="0" data-image="assets/article_categories/Kendaraan_v2.png?v=1588300279">Kendaraan</option><option  value=183 data-child="0" data-image="assets/article_categories/kesehatan_v2.png?v=1588300279">Kesehatan</option><option  value=184 data-child="0" data-image="assets/article_categories/liburan_v2.png?v=1588300279">Liburan</option><option  value=185 data-child="0" data-image="assets/article_categories/hobby_v2.png?v=1588300279">Hobi</option><option  value=186 data-child="0" data-image="assets/article_categories/biaya_lainnya_v2.png?v=1588300279">Biaya Lainnya</option></optgroup>                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row" id="dari_pengeluaran">
+                                                <label for="tujuan_pengeluaran" class="col-sm-4 col-form-label">Dari</label>
+                                                <div class="col-sm-8">
+                                                                                                            <div class="alert alert-sm alert-warning">
+                                                            Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                        </div>
+                                                                                                    </div>
+                                            </div>
+                                            <div class="form-group row" id="kategori_pemasukan">
+                                                <label for="kategori_pemasukan" class="col-sm-4 col-form-label">Kategori</label>
+                                <div class="col-sm-8">
+                                <select name="kategori_pemasukan" class="form-control kategori_pemasukan source_select" data-required="true">
+            <optgroup label=Pemasukan><option  value=103 data-child="0" data-image="assets/article_categories/gaji_v2.png?v=1588300279">Gaji</option><option  value=104 data-child="0" data-image="assets/article_categories/bonus_v2.png?v=1588300279">Bonus Dan Tunjangan</option><option  value=106 data-child="0" data-image="assets/article_categories/pendapatan_pasif_v2.png?v=1588300279">Pendapatan Pasif Atau Bisnis</option><option  value=107 data-child="0" data-image="assets/article_categories/pendapatan_lainnya_v2.png?v=1588300279">Pendapatan Lainnya</option><option  value=187 data-child="0" data-image="assets/article_categories/bunga_v2.png?v=1588300279">Bunga Atau Investasi</option></optgroup>                                     </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row asd" id="ke_pemasukan">
+                                                <label for="tujuan_pemasukan" class="col-sm-4 col-form-label">Ke</label>
+                                                <div class="col-sm-8">
+                                                <div class="alert alert-sm alert-warning">
+                                                            Silahkan buat akun <strong><a href="https://aplikasi.finansialku.com/rekeningku/dashboard">rekeningku</a></strong>
+                                                        </div>
+                                                                                                    </div>
+                                            </div>
+                                            <div class="form-group row" id="periode_bulan">
+                                                <label for="keterangan_pemasukan" class="col-sm-4 col-form-label">Keterangan</label>
+                                                <div class="col-sm-8">
+                                                    <input id="keterangan_pemasukan" name="keterangan_pemasukan" class="form-control keterangan_pemasukan" value="" type="text" placeholder="Keterangan" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group text-right">
+                                            </div>
+                                        </div>
+                                    </div>
+								</form>
+							</div>
+						</div>
+						<script>
+							
+						</script>
+												
+																<!-- Basic TableTools Berulang -->
+				</div>
+			        </div>
+        <div class="page-card border-top-0 bottom-page-card tl-content" style="display:block;">
+            <div class="page-card__content pt-0">
+                <div class="page-card__table">
+                    <table id="transaction-list" class="table table-striped transaction-table" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Tanggal</th>
+                                <th>Jenis Transaksi</th>
+                                <th>Kategori</th>
+                                <th>Jumlah Nominal</th>
+                                <th>Akun</th>
+                                <th>Keterangan</th>
+                                <th class="text-center">Pilihan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="page-card tr-content" style="display:none;">
+            <div class="page-card__content">
+                <div class="page-card__table">
+                    <table id="repeat-list" class="table table-striped transaction-table" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Nama Transaksi</th>
+                                <th>Jenis</th>
+                                <th>Periode Perulangan</th>
+                                <th>Detail Periode</th>
+                                <th>Nominal Transaksi</th>
+                                <th>Jumlah Transaksi</th>
+                                <th>Keterangan</th>
+                                <th class="text-center">Pilihan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+                                          <!-- <div class="footer text-muted">
+                            &copy; 2020. <a href="#">Finansialku</a>
+                        </div> -->
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+        <footer class="footer-section">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-self-center">
+                        <p class="footer-middle__tagline align-middle">Nikmati kemudahan merencanakan keuangan Anda<br>di Aplikasi Finansialku</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="footer-middle__btn-store">
+                            <ul class="list-btn-store">
+                                <li><a href="https://play.google.com/store/apps/details?id=com.finansialku.mobile&hl=en"><img src="themes/user-v2/img/btn_playstore.png" alt=""></a></li>
+                                <li><a href="https://apps.apple.com/id/app/finansialku/id1476033852"><img src="themes/user-v2/img/btn_appstore.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+       <FOOTER class="bg-dark text-white p-5">
+        <div class="row">
+         <div class="col-md-3">
+           <h5>LAYANAN USER</h5>
+           <ul>
+             <li>Pusat Bantuan</li>
+             <li>Cara penggunaan</li>
+             <li>Cara manajemen</li>
+             <li>Tentang Finansial</li>
+           </ul>
+         </div>
+         <div class="col-md-3">
+           <h5>RESOURCE</h5>
+           <ul>
+             <li>Komunitas</li>
+             <li>harga emas hari ini</li>
+             <li>Berita saham hari ini</li>
+             <li>FAQ perencanaan keuangan</li>
+           </ul>
+         </div>
+         <div class="col-md-3">
+           <h5>KONTAK PERSON</h5>
+           <ul>
+             <li>Jalan Bintaran Tengah</li>
+             <li>No.10 Wirogunan Kec. Mergangsan</li>
+             <li>Kota Yogyakarta</li>
+             <li>PHONE NUMBER : 085273264949</li>
+             <li>Web : goceng.com</li>
+           </ul>
+         </div>
+         <div class="col-md-3 text-white">
+           <h5>LIKE DAN FOLLOW GOCENG</h5>
+                <ul class="list-social-media text-white">
+                <li><a href="https://www.facebook.com/finansialku"><img src="themes/user-v2/img/icon/ic_facebook.png" alt="">  FACEBOOK</a></li>
+                <li><a href="https://twitter.com/finansialku"><img src="themes/user-v2/img/icon/ic_twitter.png" alt="">  TWITTER</a></li>
+                <li><a href="http://www.pinterest.com/finansialku/"><img src="themes/user-v2/img/icon/ic_pinterest.png" alt="">  PINTAR</a></li>
+                <li><a href="https://www.linkedin.com/company/finansialku-com"><img src="themes/user-v2/img/icon/ic_linkedin.png" alt="">  LINKEDIN</a></li>
+                <li><a href="https://www.youtube.com/c/Finansialkucom"><img src="themes/user-v2/img/icon/ic_youtube.png" alt="">  YOUTUBE</a></li>
+                <li><a href="https://www.instagram.com/Finansialku_com/"><img src="themes/user-v2/img/icon/ic_instagram.png" alt="">  INSTAGRAM</a></li>
+            </ul>
+         </div>
+       </div>
+   </FOOTER>
+   <footer class="footer-section">
+        <div class="footer-bottom">
+            <div class="footer-bottom__navigation">
+                <img src="themes/user-v2/img/icon/ic_arrow_to_top.png" alt="" id="back-to-top">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                         <div class="copyright text-center text-white font-weight-bold bg-transparan p-2">
+                            <h5 class="text-white font-weight-bold bg-transparan">DEVELOPED BY GOCENG COPYRIGHT <i class="far fa-copyright"></i> 2020</h5></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Responsive -->
+    <div class="inbox-menu dropdown-inbox notification-responsive">
+        <div class="dropdown-inbox__wrapper">
+            <div class="dropdown-inbox__header">
+                <p class="mb-0 text-bold">Inbox</p>
+            </div>
+            <div class="dropdown-inbox__content">
+                <div class="dropdown-inbox__nav">
+                    <ul class="nav nav-pills nav-notification mb-0">
+                        <li class="nav-item">
+                            <a data-tab="update-responsive" class="nav-link inbox-responsive active tablinks-responsive" ><span>Info</span><!--<span class="pills-notification"></span>--></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-tab="promo-responsive" class="nav-link update-responsive tablinks-responsive"><span>Update</span><!--<span class="pills-notification"></span>--></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane tab-notif-responsive active" id="update-responsive">
+                        <div class="dropdown-inbox__content-item">
+                                                            <div class="dropdown-inbox__empty text-center">
+                                    <img class="folder-empty" src="themes/user-v2/img/icon/ic_empty_folder.svg" alt="">
+                                    <h6>Data Kosong</h6>
+                                    <p>Belum ada data yang ditemukan</p>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div class="tab-pane tab-notif-responsive" id="promo-responsive">
+                        <div class="dropdown-inbox__content-item">
+                                                            <div class="dropdown-inbox__empty text-center">
+                                    <img class="folder-empty" src="themes/user-v2/img/icon/ic_empty_folder.svg" alt="">
+                                    <h6>Data Kosong</h6>
+                                    <p>Belum ada data yang ditemukan</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="mobile-menu__header">
+            <div class="row">
+                <div class="col-7">
+                    <img src="assets/images/main-logo.png?load=1588300282" alt="">
+                </div>
+                <div class="col-5 text-right align-self-center">
+                    <span class="align-middle status text-bold text-uppercase bg-light-yellow">Trial Member</span>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu__profile">
+            <a href="https://aplikasi.finansialku.com/profile">
+                <div class="media">
+                    <img src="assets/images/placeholder.jpg?v=1588300282" class="align-self-center mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h6 class="mt-0">YUSRIL FAJARENDRA</h6>
+                        <p>yusril1800018241@webmail.uad.ac.id</p>
+                    </div>
+                </div>
+                <img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a>
+            </a>
+        </div>
+        <div class="mobile-menu__menu">
+            <ul>
+                <li><a href="https://aplikasi.finansialku.com/"><img src="themes/user-v2/img/icon/navigation/ic_home.svg" alt="">Home<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/upgrade/pricing"><img src="themes/user-v2/img/icon/navigation/ic_upgrade_account.svg" alt="">Upgrade<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/pengaturan"><img src="themes/user-v2/img/icon/navigation/ic_settings.svg" alt="">Pengaturan<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/account_payment"><img src="themes/user-v2/img/icon/navigation/ic_invoice.svg" alt="">Invoice<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/promo"><img src="themes/user-v2/img/icon/navigation/ic_promo_code.svg" alt="">Kode Promo<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/referral"><img src="themes/user-v2/img/icon/navigation/ic_referral_code.svg" alt="">Kode Referal<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://www.finansialku.com/panduan-penggunaan-aplikasi-finansialku/"><img src="themes/user-v2/img/icon/navigation/ic_help.svg" alt="">Bantuan<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/feedback"><img src="themes/user-v2/img/icon/navigation/ic_contact_us.svg" alt="">Kontak Kami<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/document/term_and_condition"><img src="themes/user-v2/img/icon/navigation/ic_tnc.svg" alt="">Syarat & Ketentuan<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/document/privacy_policy"><img src="themes/user-v2/img/icon/navigation/ic_privacy_police.svg" alt="">Kebijakan Privasi<img class="arrow" src="themes/user-v2/img/icon/navigation/ic_arrow_right.svg"></a></li>
+                <li><a href="https://aplikasi.finansialku.com/user/logout"><img src="themes/user-v2/img/icon/navigation/ic_logout.svg" alt="">Keluar</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay-mobile-menu"></div>
+    
+    <!-- Premium Only Modal -->
+    <div class="modal fade page-card__modal" id="premium-only" tabindex="-1" role="dialog" aria-labelledby="premium-only-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header modal-header__blue">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h6 class="modal-title mb-0">Pemberitahuan</h6>
+                </div>
+                <div class="modal-body">
+                    <p class="text-grey">
+                        Fitur ini hanya untuk member dengan keanggotaan <span class="text-bold text-orange">PREMIUM.</span> Silahkan upgrade terlebih dahulu.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-main-site" data-dismiss="modal">Tutup</button>
+                    <a href="upgrade/pricing" class="ml-3 btn btn-main-site btn-secondary-linear">Beli Akun Premium</a>
+                </div>
+            </div>
+        </div>
+    </div>
+            <script>
+        $(document).ready(function(){
+            $('.input-filter').on('change', function() {
+                $('.form-filter').submit();
+            });
+        });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="admin.js"></script>
+    </strong>
+    </body>
+
+</html>
