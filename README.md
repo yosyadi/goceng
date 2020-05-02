@@ -1,6 +1,6 @@
 # goceng
 
-Nama Kelompok : SANTUY
+Nama Kelompok : SANTUY | Kelas : E
  - Yusril Iza Fajarendra | 1800018241 (Ketua)
  - Yosyadi Rizkika Amanatullah S | 1800018247 (Programer)
  - Aji Liwanto | 1800018  (mobile Frontend)
