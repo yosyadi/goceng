@@ -39,5 +39,7 @@ File yang Kami tambahkan dan edit
 
 # Uji Fungsional otomatis
 - WEB : https://gocengtp.000webhostapp.com/
+        Untuk Login defaulnya dapat menggunakan.
+        Username : admin | Password : admin
 - Mobile : goceng-android-master/app-goceng.apk untuk mobile tidak bisa di upload ke playstore karena berbayar seharga 400 ribu.
  
