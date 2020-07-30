@@ -14,8 +14,10 @@ Nama Kelompok : SANTUY | Kelas : E
 - git config --global user.email "yosyadi111@gmail.com"
 - git commit -m "menambahkan data"
 - git status
+- git push oringin nama_branch
+- git pull origin nama_brance
 
-# Desain dan Penggunaan JSON
+# Desain dan Penggunaan JSON API
 File yang Kami tambahkan dan edit
 - application\config\config.php
 - application\config\autoload.php
@@ -29,4 +31,13 @@ File yang Kami tambahkan dan edit
 # Software Testing(Uji coba) API yaitu POSTMAN
 - goceng-rest-server terkoneksi ke database yang berada pada Database project\goceng_rest.sql
 - dari data yang didapat melalui database langsung diubah menjadi JSON.
+
+# Desain MVC
+- Untuk WEB platform yaitu Folder GocengWebSoftware
+- Untuk Mobile platform yaitu folder goceng-android-master dengan hasil APKnya terdapat pada goceng-android-master/app-goceng.apk
+- Untuk link trello : https://trello.com/b/c4Wkc5wV/goceng-project
+
+# Uji Fungsional otomatis
+- WEB : https://gocengtp.000webhostapp.com/
+- Mobile : goceng-android-master/app-goceng.apk untuk mobile tidak bisa di upload ke playstore karena berbayar seharga 400 ribu.
  
